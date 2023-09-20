@@ -14,6 +14,8 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-AcasoDesafio-AcasoDesafioTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-AcasoDesafio-AcasoDesafioTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		7A32511047284ADC84F5466C /* Raleway-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E91EC604BA64F8BB64EB253 /* Raleway-Medium.ttf */; };
+		393DE9B4BE5A43209F932913 /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D888CC88B460448D8D7B9455 /* Raleway-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +32,7 @@
 		00E356EE1AD99517003FC87E /* AcasoDesafioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcasoDesafioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* AcasoDesafioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AcasoDesafioTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* AcasoDesafio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AcasoDesafio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* acaso.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = acaso.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AcasoDesafio/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = AcasoDesafio/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = AcasoDesafio/Images.xcassets; sourceTree = "<group>"; };
@@ -44,6 +46,8 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = AcasoDesafio/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-AcasoDesafio-AcasoDesafioTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcasoDesafio-AcasoDesafioTests.release.xcconfig"; path = "Target Support Files/Pods-AcasoDesafio-AcasoDesafioTests/Pods-AcasoDesafio-AcasoDesafioTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		6E91EC604BA64F8BB64EB253 /* Raleway-Medium.ttf */ = {isa = PBXFileReference; name = "Raleway-Medium.ttf"; path = "../src/presentation/assets/fonts/Raleway-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D888CC88B460448D8D7B9455 /* Raleway-Regular.ttf */ = {isa = PBXFileReference; name = "Raleway-Regular.ttf"; path = "../src/presentation/assets/fonts/Raleway-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +126,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				8C8B851C245C40A291FACB2C /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -131,7 +136,7 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* AcasoDesafio.app */,
+				13B07F961A680F5B00A75B9A /* acaso.app */,
 				00E356EE1AD99517003FC87E /* AcasoDesafioTests.xctest */,
 			);
 			name = Products;
@@ -147,6 +152,16 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		8C8B851C245C40A291FACB2C /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				6E91EC604BA64F8BB64EB253 /* Raleway-Medium.ttf */,
+				D888CC88B460448D8D7B9455 /* Raleway-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -191,7 +206,7 @@
 			);
 			name = AcasoDesafio;
 			productName = AcasoDesafio;
-			productReference = 13B07F961A680F5B00A75B9A /* AcasoDesafio.app */;
+			productReference = 13B07F961A680F5B00A75B9A /* acaso.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -244,6 +259,8 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				7A32511047284ADC84F5466C /* Raleway-Medium.ttf in Resources */,
+				393DE9B4BE5A43209F932913 /* Raleway-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,8 +503,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4A72YGMT34;
+				DISPLAY_NAME = aca.so;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = AcasoDesafio/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "$(DISPLAY_NAME)";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -498,8 +519,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = AcasoDesafio;
+				PRODUCT_BUNDLE_IDENTIFIER = com.acaso;
+				PRODUCT_NAME = acaso;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -513,7 +534,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4A72YGMT34;
+				DISPLAY_NAME = aca.so;
 				INFOPLIST_FILE = AcasoDesafio/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "$(DISPLAY_NAME)";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -524,8 +549,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = AcasoDesafio;
+				PRODUCT_BUNDLE_IDENTIFIER = com.acaso;
+				PRODUCT_NAME = acaso;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
